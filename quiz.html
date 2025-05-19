@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+
+        <title>Quiz</title>
+        
+        <link rel="icon" href="" type="image/png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a class="active" href="quiz.html">Quiz</a></li>
+                </ul>
+            </nav>
+            <h1><u>Top Flight English Football Quiz</u></h1> 
+        </header>
+        <main>
+            <form name="Quiz">
+                <label for="name">Enter your name: </label><input type="text" name="name" size="30">
+            
+                <p>1. What year was the Premier League created?</p>
+                <input type="radio" name="yearCreated" value="1990">
+                <label for="1990">1990</label><br>
+                
+                <input type="radio" name="yearCreated" value="1991">
+                <label for="1991">1991</label><br>
+                
+                <input type="radio" name="yearCreated" value="1992">
+                <label for="1992">1992</label><br>
+
+                <input type="radio" name="yearCreated" value="1993">
+                <label for="1993">1993</label><br>
+                <br>
+
+                <p>2. Before the 1995/96 season, how many teams competed in the Premier League each season?</p>
+                <input type="radio" name="oldAmount" value="18">
+                <label for="18">18</label><br>
+
+                <input type="radio" name="oldAmount" value="20">
+                <label for="20">20</label><br>
+
+                <input type="radio" name="oldAmount" value="22">
+                <label for="22">22</label><br>
+
+                <input type="radio" name="oldAmount" value="24">
+                <label for="24">24</label><br>
+                <br>
+
+                <p>3. Who is the top scorer in Premier League history?</p>
+                <input type="radio" name="topScorer" value="wayneRooney">
+                <label for="wayneRooney">Wayne Rooney</label><br>
+
+                <input type="radio" name="topScorer" value="alanShearer">
+                <label for="alanShearer">Alan Shearer</label><br>
+
+                <input type="radio" name="topScorer" value="harryKane">
+                <label for="harryKane">Harry Kane</label><br>
+
+                <input type="radio" name="topScorer" value="cristianoRonaldo">
+                <label for="cristianoRonaldo">Cristiano Ronaldo</label><br>
+                <br>
+
+                <p>4. Who has the most assists in Premier League History?</p>
+                <input type="radio" name="topAssister" value="ryanGiggs">
+                <label for="ryanGiggs">Ryan Giggs</label><br>
+
+                <input type="radio" name="topAssister" value="kevinDeBruyne">
+                <label for="kevinDeBruyne">Kevin De Bruyne</label><br>
+
+                <input type="radio" name="topAssister" value="wayneRooney">
+                <label for="wayneRooney">Wayne Rooney</label><br>
+
+                <input type="radio" name="topAssister" value="frankLampard">
+                <label for="frankLampard">Frank Lampard</label><br>
+                <br>
+
+                <p>5. Which team has won the most Premier League titles?</p>
+                <input type="radio" name="mostTitles" value="liverpool">
+                <label for="liverpool">Liverpool</label><br>
+
+                <input type="radio" name="mostTitles" value="arsenal">
+                <label for="arsenal">Arsenal</label><br>
+
+                <input type="radio" name="mostTitles" value="manchesterCity">
+                <label for="manchesterCity">Manchester City</label><br>
+
+                <input type="radio" name="mostTitles" value="manchesterUnited">
+                <label for="manchesterUnited">Manchester United</label><br>
+                <br>
+
+                <label for="titleAmount">6. How many Premier League titles has the most successful team won?</label><br>
+                <input type="number" name="titleAmount" min="1" max="25" step="1">
+                <br>
+
+            
+                <br>    
+                <button type="button" onclick="checkAnswers();">Submit</button>
+            </form>
+            
+
+            <br>
+            
+        <script src="script.js"></script>
+        </main>
+        <aside></aside>
+        <footer></footer>
+    </body>
+</html>
